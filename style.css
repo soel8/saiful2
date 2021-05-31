@@ -1,7 +1,102 @@
 body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
 
-margin: 0%;}
+}
+.orange-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    
+}
+.half-width img{
+    height: 500px;
+    width: 600px;
+    
+}
 
+.link-button{
+ text-decoration: none;
+ color: white;
+ background-image: linear-gradient(120deg, lightsalmon, tomato);
+ padding: 10px 15px;
+ border-radius: 5px;
+ font-weight: bold;
+ background-image: orange;
+ 
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.background-image{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.background-style{
+    background-image: url("images/exp-bg.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+    
+}
+.blue-highlight{
+    color: blueviolet;
+}
+.red-highlight{
+    color: red;
+}
 h1{
     font-size: 40px;
+}
+.style-one{
+    margin: 4%;
+    color: green;
+    font-style: italic;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    color: dimgray;
+}
+.link-fashion{
+    color: white;
+    background-image: linear-gradient(120deg, lightsalmon, tomato);
+    background-color: orange;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+.single-experience{
+    box-shadow: 10px 10px 20px gray;
+    height: 60%;
+    border-radius: 5px;
+}
+#Full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    background-color: white;
+}
+#Fokira-web{
+border-left: 7px solid;
+border-image: linear-gradient(180deg, blue, cyan);
+border-image-slice: 1;
+background-color: white;
+}
+footer{
+    text-align: center;
+    text-shadow: red;
+    font-size: 15px;
+    color: darkolivegreen;
 }
